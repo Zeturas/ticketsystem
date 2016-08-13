@@ -6,18 +6,23 @@ using System.Web;
 using Umbraco.Core.Persistence;
 using Umbraco.Core.Persistence.DatabaseAnnotations;
 
-[TableName("Ticket")]
-[PrimaryKey("Id", autoIncrement = true)]
-public class Ticket
+// represents the database table Ticket
+
+namespace Umbraco.Core.TheTicketSystem.Objects
 {
-    public Ticket() {}
-    
-    [PrimaryKeyColumn(AutoIncrement = true)]
-    public int Id { get; set; }
+    [TableName("Ticket")]
+    [PrimaryKey("Id", autoIncrement = true)]
+    public class Ticket
+    {
+        public Ticket() { }
 
-    [Required]
-    public string Subject { get; set; }
+        [PrimaryKeyColumn(AutoIncrement = true)]
+        public int Id { get; set; }
 
-    [ForeignKey(typeof(Client))]
-    public int fiClient { get; set; }
+        [Required]
+        public string Subject { get; set; }
+
+        [ForeignKey(typeof(Client))]
+        public int fiClient { get; set; }
+    }
 }

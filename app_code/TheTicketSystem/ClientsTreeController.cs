@@ -7,40 +7,45 @@ using Umbraco.Web.Models.Trees;
 using Umbraco.Web.Mvc;
 using Umbraco.Web.Trees;
 using Umbraco.Core;
+using Umbraco.Core.TheTicketSystem.Objects;
 
-[Tree("theTicketSystem", "clientsTree", "Clients")]
-[PluginController("theTicketSystem")]
-public class ClientsTreeController : TreeController
+namespace Umbraco.Core.TheTicketSystem
 {
-    protected override MenuItemCollection GetMenuForNode(string id, FormDataCollection queryStrings)
-    {
-        var menu = new MenuItemCollection();
-        return menu;
-    }
 
-    protected override TreeNodeCollection GetTreeNodes(string id, FormDataCollection queryStrings)
+    [Tree("theTicketSystem", "clientsTree", "Clients")]
+    [PluginController("theTicketSystem")]
+    public class ClientsTreeController : TreeController
     {
-        if (id == Constants.System.Root.ToInvariantString())
+        protected override MenuItemCollection GetMenuForNode(string id, FormDataCollection queryStrings)
         {
-            var ctrl = new ClientApiController();
-            var nodes = new TreeNodeCollection();
-
-            foreach (var client in ctrl.GetAll())
-            {
-                var node = CreateTreeNode(
-                    client.Id.ToString(),
-                    "-1",
-                    queryStrings,
-                    client.ToString(),
-                    "icon-user",
-                    false);
-
-                nodes.Add(node);
-            }
-
-            return nodes;
+            var menu = new MenuItemCollection();
+            return menu;
         }
 
-        throw new NotSupportedException();
+        protected override TreeNodeCollection GetTreeNodes(string id, FormDataCollection queryStrings)
+        {
+            if (id == Constants.System.Root.ToInvariantString())
+            {
+                var ctrl = new ClientApiController();
+                var nodes = new TreeNodeCollection();
+
+                foreach (var client in ctrl.GetAll())
+                {
+                    var node = CreateTreeNode(
+                        client.Id.ToString(),
+                        "-1",
+                        queryStrings,
+                        client.ToString(),
+                        "icon-user",
+                        false);
+
+                    nodes.Add(node);
+                }
+
+                return nodes;
+            }
+
+            throw new NotSupportedException();
+        }
     }
 }

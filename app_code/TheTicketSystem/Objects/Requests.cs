@@ -6,14 +6,14 @@ using System.Web;
 using Umbraco.Core.Persistence;
 using Umbraco.Core.Persistence.DatabaseAnnotations;
 
-// Represents the database table Client
+// This represents the database table Requests
 namespace Umbraco.Core.TheTicketSystem.Objects
 {
-    [TableName("Client")]
+    [TableName("Requests")]
     [PrimaryKey("Id", autoIncrement = true)]
-    public class Client
+    public class Requests
     {
-        public Client() { }
+        public Requests() { }
 
         [PrimaryKeyColumn(AutoIncrement = true)]
         public int Id { get; set; }

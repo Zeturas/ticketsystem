@@ -4,29 +4,40 @@ using System.Linq;
 using System.Web;
 using Umbraco.Core;
 using Umbraco.Core.Persistence;
+using Umbraco.Core.TheTicketSystem.Objects;
 
-public class RegisterEvents : ApplicationEventHandler
+namespace Umbraco.Core.TheTicketSystem
 {
-    protected override void ApplicationStarted(UmbracoApplicationBase umbracoApplication, ApplicationContext applicationContext)
+
+    public class RegisterEvents : ApplicationEventHandler
     {
-        var db = applicationContext.DatabaseContext.Database;
-
-        // Create client table if not exists
-        if (!db.TableExist("Client"))
+        protected override void ApplicationStarted(UmbracoApplicationBase umbracoApplication, ApplicationContext applicationContext)
         {
-            db.CreateTable<Client>(true);
-        }
+            var db = applicationContext.DatabaseContext.Database;
 
-        // Create ticket table if not exists
-        if (!db.TableExist("Ticket"))
-        {
-            db.CreateTable<Ticket>(true);
-        }
+            // Create client table if not exists
+            if (!db.TableExist("Client"))
+            {
+                db.CreateTable<Client>(false);
+            }
 
-        // Create ticketText table if not exists
-        if (!db.TableExist("TicketText"))
-        {
-            db.CreateTable<TicketText>(true);
+            // Create ticket table if not exists
+            if (!db.TableExist("Ticket"))
+            {
+                db.CreateTable<Ticket>(false);
+            }
+
+            // Create ticketText table if not exists
+            if (!db.TableExist("TicketText"))
+            {
+                db.CreateTable<TicketText>(false);
+            }
+
+            // Create Requests table if not exists
+            if (!db.TableExist("Requests"))
+            {
+                db.CreateTable<Requests>(false);
+            }
         }
     }
 }

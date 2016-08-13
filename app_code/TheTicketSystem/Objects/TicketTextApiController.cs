@@ -6,42 +6,46 @@ using Umbraco.Core.Persistence;
 using Umbraco.Web.Editors;
 using Umbraco.Web.Mvc;
 
-[PluginController("theTicketSystem")]
-public class TicketTextApiController : UmbracoAuthorizedJsonController
+namespace Umbraco.Core.TheTicketSystem.Objects
 {
-    public IEnumerable<TicketText> GetAll()
-    {
-        var query = new Sql().Select("*").From("TicketText");
-        return DatabaseContext.Database.Fetch<TicketText>(query);
-    }
 
-    public TicketText GetById(int id)
+    [PluginController("theTicketSystem")]
+    public class TicketTextApiController : UmbracoAuthorizedJsonController
     {
-        var query = new Sql().Select("*").From("TicketText").Where<TicketText>(x => x.Id == id);
-        return DatabaseContext.Database.Fetch<TicketText>(query).FirstOrDefault();
-    }
-
-    public IEnumerable<TicketText> GetByTicketId(int id)
-    {
-        var query = new Sql().Select("*").From("TicketText").Where<TicketText>(x => x.fiTicket == id).OrderBy("createTS");
-        return DatabaseContext.Database.Fetch<TicketText>(query);
-    }
-
-    public TicketText PostSave(TicketText ticketText)
-    {
-        if (ticketText.Id > 0)
+        public IEnumerable<TicketText> GetAll()
         {
-            DatabaseContext.Database.Update(ticketText);
+            var query = new Sql().Select("*").From("TicketText");
+            return DatabaseContext.Database.Fetch<TicketText>(query);
         }
-        else
-        {
-            DatabaseContext.Database.Insert(ticketText);
-        }
-        return ticketText;
-    }
 
-    public int DeleteById(int id)
-    {
-        return DatabaseContext.Database.Delete<TicketText>(id);
+        public TicketText GetById(int id)
+        {
+            var query = new Sql().Select("*").From("TicketText").Where<TicketText>(x => x.Id == id);
+            return DatabaseContext.Database.Fetch<TicketText>(query).FirstOrDefault();
+        }
+
+        public IEnumerable<TicketText> GetByTicketId(int id)
+        {
+            var query = new Sql().Select("*").From("TicketText").Where<TicketText>(x => x.fiTicket == id).OrderBy("createTS");
+            return DatabaseContext.Database.Fetch<TicketText>(query);
+        }
+
+        public TicketText PostSave(TicketText ticketText)
+        {
+            if (ticketText.Id > 0)
+            {
+                DatabaseContext.Database.Update(ticketText);
+            }
+            else
+            {
+                DatabaseContext.Database.Insert(ticketText);
+            }
+            return ticketText;
+        }
+
+        public int DeleteById(int id)
+        {
+            return DatabaseContext.Database.Delete<TicketText>(id);
+        }
     }
 }
