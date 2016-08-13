@@ -1350,3 +1350,440 @@ _shutDownStack=   bei System.Environment.GetStackTrace(Exception e, Boolean need
  2016-08-13 16:02:50,453 [P9588/D4/T28] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
  2016-08-13 16:02:50,457 [P9588/D4/T28] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 4ms)
  2016-08-13 16:03:34,639 [P9588/D4/T14] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-08-12 16:03:34
+ 2016-08-13 16:20:52,389 [P15412/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.4.3 application starting on DESKTOP-FUK9L36
+ 2016-08-13 16:20:52,402 [P15412/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-08-13 16:20:52,410 [P15412/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 7ms)
+ 2016-08-13 16:20:52,455 [P15412/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-08-13 16:20:52,651 [P15412/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 195ms)
+ 2016-08-13 16:20:52,661 [P15412/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-08-13 16:20:52,668 [P15412/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 7ms)
+ 2016-08-13 16:20:52,669 [P15412/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-08-13 16:20:52,673 [P15412/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 3ms)
+ 2016-08-13 16:20:52,682 [P15412/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-08-13 16:20:52,684 [P15412/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 2ms)
+ 2016-08-13 16:20:52,685 [P15412/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2016-08-13 16:20:52,688 [P15412/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 3ms)
+ 2016-08-13 16:20:52,713 [P15412/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-08-13 16:20:52,719 [P15412/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 6ms)
+ 2016-08-13 16:20:52,719 [P15412/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-08-13 16:20:52,722 [P15412/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 3ms)
+ 2016-08-13 16:20:53,297 [P15412/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-08-13 16:20:53,469 [P15412/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-08-13 16:20:53,576 [P15412/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-08-13 16:20:53,607 [P15412/D2/T1] WARN  Umbraco.Core.Sync.DatabaseServerMessenger - No last synced Id found, this generally means this is a new server/install. The server will build its caches and indexes, and then adjust its last synced Id to the latest found in the database and maintain cache updates based on that Id.
+ 2016-08-13 16:20:53,638 [P15412/D2/T1] INFO  umbraco.content - Load Xml from file...
+ 2016-08-13 16:20:53,641 [P15412/D2/T1] INFO  umbraco.content - Loaded Xml from file.
+ 2016-08-13 16:20:53,644 [P15412/D2/T1] INFO  umbraco.content - Loading content from database...
+ 2016-08-13 16:20:54,461 [P15412/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-08-13 16:20:54,471 [P15412/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 10ms)
+ 2016-08-13 16:20:54,682 [P15412/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2016-08-13 16:20:54,692 [P15412/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2016-08-13 16:20:54,694 [P15412/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2016-08-13 16:20:54,700 [P15412/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 2357ms)
+ 2016-08-13 16:20:55,305 [P15412/D2/T12] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:61142/umbraco (UmbracoModule request)
+ 2016-08-13 16:20:58,288 [P15412/D2/T10] INFO  umbraco.content - Save Xml to file...
+ 2016-08-13 16:20:59,282 [P15412/D2/T21] INFO  umbraco.content - Saved Xml to file.
+ 2016-08-13 16:21:11,756 [P15412/D2/T12] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-08-13 16:21:11,760 [P15412/D2/T12] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 4ms)
+ 2016-08-13 16:21:11,793 [P15412/D2/T23] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-08-13 16:21:11,797 [P15412/D2/T23] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 4ms)
+ 2016-08-13 16:21:11,805 [P15412/D2/T23] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-08-13 16:21:11,805 [P15412/D2/T23] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-08-13 16:21:11,807 [P15412/D2/T23] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-08-13 16:21:11,818 [P15412/D2/T23] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 10ms)
+ 2016-08-13 16:21:11,826 [P15412/D2/T23] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2016-08-13 16:21:11,837 [P15412/D2/T23] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 11ms)
+ 2016-08-13 16:21:12,129 [P15412/D2/T12] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2016-08-13 16:21:12,142 [P15412/D2/T12] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 13ms)
+ 2016-08-13 16:21:55,445 [P15412/D2/T17] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-08-12 16:21:55
+ 2016-08-13 16:40:51,165 [P15412/D2/T74] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt failed for username luxlink2@hotmail.com from IP address ::1
+ 2016-08-13 16:41:04,272 [P15412/D2/T74] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username luxlink2@hotmail.com from IP address ::1
+ 2016-08-13 16:41:04,272 [P15412/D2/T74] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: luxlink2@hotmail.com logged in from IP address ::1
+ 2016-08-13 16:41:25,210 [P15412/D2/T37] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2016-08-13 16:41:25,221 [P15412/D2/T37] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 10ms)
+ 2016-08-13 16:42:25,422 [P15412/D2/T57] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-08-13 16:42:25,422 [P15412/D2/T57] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-08-13 16:43:47,193 [P15412/D2/T35] WARN  Umbraco.Core.Models.Member - An attempt was made to set a value on the property 'PasswordQuestion' on type Umbraco.Core.Models.Member but the property type umbracoMemberPasswordRetrievalQuestion does not exist on the member type, ensure that this property type exists so that setting this property works correctly.
+ 2016-08-13 16:43:47,193 [P15412/D2/T35] WARN  Umbraco.Core.Models.Member - An attempt was made to set a value on the property 'PasswordAnswer' on type Umbraco.Core.Models.Member but the property type umbracoMemberPasswordRetrievalAnswer does not exist on the member type, ensure that this property type exists so that setting this property works correctly.
+ 2016-08-13 16:43:47,242 [P15412/D2/T35] WARN  Umbraco.Core.Models.Member - Trying to access the 'PasswordQuestion' property on Umbraco.Core.Models.Member but the umbracoMemberPasswordRetrievalQuestion property does not exist on the member type so a default value is returned. Ensure that you have a property type with alias: umbracoMemberPasswordRetrievalQuestion configured on your member type in order to use the 'PasswordQuestion' property on the model correctly.
+ 2016-08-13 16:59:39,505 [P15412/D2/T67] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Editors.IEditorValidator
+ 2016-08-13 16:59:39,513 [P15412/D2/T67] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Editors.IEditorValidator, found 0 (took 7ms)
+ 2016-08-13 17:05:37,114 [P15412/D2/T67] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-08-13 17:05:37,115 [P15412/D2/T67] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-08-13 17:11:17,698 [P15412/D2/T42] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2016-08-13 17:11:32,894 [P15412/D2/T42] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2016-08-13 17:12:24,356 [P15412/D2/T42] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2016-08-13 17:12:43,025 [P15412/D2/T42] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'LoginPage' with Id '0' has been published.
+ 2016-08-13 17:12:47,170 [P15412/D2/T73] INFO  umbraco.content - Save Xml to file...
+ 2016-08-13 17:12:47,177 [P15412/D2/T26] INFO  umbraco.content - Saved Xml to file.
+ 2016-08-13 17:13:03,641 [P15412/D2/T45] INFO  umbraco.content - Save Xml to file...
+ 2016-08-13 17:13:03,647 [P15412/D2/T26] INFO  umbraco.content - Saved Xml to file.
+ 2016-08-13 17:13:49,453 [P15412/D2/T49] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-08-13 17:16:07,024 [P15412/D2/T68] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'LoginPage' with Id '1086' has been published.
+ 2016-08-13 17:16:11,103 [P15412/D2/T67] INFO  umbraco.content - Save Xml to file...
+ 2016-08-13 17:16:11,108 [P15412/D2/T66] INFO  umbraco.content - Saved Xml to file.
+ 2016-08-13 17:18:03,975 [P15412/D2/T56] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-08-13 17:18:03,976 [P15412/D2/T56] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-08-13 17:18:04,196 [P15412/D2/T48] ERROR umbraco.presentation.preview.PreviewContent - Couldn't delete preview set: 0_4bc40846-c4d2-4a9b-ab0f-6e6467a62a58.config - User 0
+System.IO.IOException: The process cannot access the file '0_4bc40846-c4d2-4a9b-ab0f-6e6467a62a58.config' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileInfo.Delete()
+   at umbraco.presentation.preview.PreviewContent.DeletePreviewFile(Int32 userId, FileInfo file)
+ 2016-08-13 17:18:05,732 [P15412/D2/T19] INFO  umbraco.content - Save Xml to file...
+ 2016-08-13 17:18:05,739 [P15412/D2/T46] INFO  umbraco.content - Saved Xml to file.
+ 2016-08-13 17:18:46,794 [P15412/D2/T37] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - Login attempt failed for username luxlink2@hotmail.com from IP address ::1, the user does not exist
+ 2016-08-13 17:18:46,797 [P15412/D2/T37] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Executing Umbraco RouteDefinition controller
+ 2016-08-13 17:18:46,806 [P15412/D2/T37] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Finished (took 9ms)
+ 2016-08-13 17:18:55,522 [P15412/D2/T67] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - Login attempt failed for username cliff from IP address ::1
+ 2016-08-13 17:18:55,559 [P15412/D2/T67] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Executing Umbraco RouteDefinition controller
+ 2016-08-13 17:18:55,562 [P15412/D2/T67] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Finished (took 2ms)
+ 2016-08-13 17:31:32,958 [P15412/D2/T87] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2016-08-13 17:43:03,067 [P15412/D2/T83] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: luxlink2@hotmail.com, IP Address: ::1
+ 2016-08-13 20:21:55,460 [P15412/D2/T176] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-08-12 20:21:55
+ 2016-08-13 20:55:17,825 [P15412/D2/T332] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username luxlink2@hotmail.com from IP address ::1
+ 2016-08-13 20:55:17,825 [P15412/D2/T332] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: luxlink2@hotmail.com logged in from IP address ::1
+ 2016-08-13 20:55:17,923 [P15412/D2/T332] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-08-13 20:55:17,923 [P15412/D2/T332] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-08-13 20:55:26,621 [P15412/D2/T343] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'LoginPage' with Id '1086' has been unpublished.
+ 2016-08-13 20:55:30,687 [P15412/D2/T27] INFO  umbraco.content - Save Xml to file...
+ 2016-08-13 20:55:30,698 [P15412/D2/T342] INFO  umbraco.content - Saved Xml to file.
+ 2016-08-13 21:07:39,592 [P15412/D2/T299] INFO  umbraco.content - Loading content from database...
+ 2016-08-13 21:07:43,701 [P15412/D2/T294] INFO  umbraco.content - Save Xml to file...
+ 2016-08-13 21:07:43,709 [P15412/D2/T313] INFO  umbraco.content - Saved Xml to file.
+ 2016-08-13 21:08:23,677 [P15412/D2/T305] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Login' with Id '0' has been published.
+ 2016-08-13 21:08:27,811 [P15412/D2/T294] INFO  umbraco.content - Save Xml to file...
+ 2016-08-13 21:08:27,817 [P15412/D2/T317] INFO  umbraco.content - Saved Xml to file.
+ 2016-08-13 21:09:08,369 [P15412/D2/T284] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Login' with Id '1087' has been unpublished.
+ 2016-08-13 21:09:12,420 [P15412/D2/T335] INFO  umbraco.content - Save Xml to file...
+ 2016-08-13 21:09:12,425 [P15412/D2/T310] INFO  umbraco.content - Saved Xml to file.
+ 2016-08-13 21:09:27,120 [P15412/D2/T335] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Ticket System' with Id '0' has been published.
+ 2016-08-13 21:09:31,251 [P15412/D2/T299] INFO  umbraco.content - Save Xml to file...
+ 2016-08-13 21:09:31,258 [P15412/D2/T310] INFO  umbraco.content - Saved Xml to file.
+ 2016-08-13 21:16:31,975 [P15412/D2/T321] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2016-08-13 21:19:34,439 [P15412/D2/T304] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2016-08-13 21:20:17,834 [P15412/D2/T314] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2016-08-13 21:20:49,373 [P15412/D2/T319] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2016-08-13 21:21:40,757 [P15412/D2/T335] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Ticket System 2' with Id '0' has been published.
+ 2016-08-13 21:21:44,895 [P15412/D2/T284] INFO  umbraco.content - Save Xml to file...
+ 2016-08-13 21:21:44,900 [P15412/D2/T315] INFO  umbraco.content - Saved Xml to file.
+ 2016-08-13 21:22:28,456 [P15412/D2/T285] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Ticket System' with Id '1088' has been unpublished.
+ 2016-08-13 21:22:31,717 [P15412/D2/T301] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Ticket System 2' with Id '1093' has been unpublished.
+ 2016-08-13 21:22:35,763 [P15412/D2/T319] INFO  umbraco.content - Save Xml to file...
+ 2016-08-13 21:22:35,773 [P15412/D2/T291] INFO  umbraco.content - Saved Xml to file.
+ 2016-08-13 21:25:59,412 [P15412/D2/T305] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2016-08-13 21:27:40,506 [P15412/D2/T134] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Ticket System' with Id '0' has been published.
+ 2016-08-13 21:27:44,627 [P15412/D2/T306] INFO  umbraco.content - Save Xml to file...
+ 2016-08-13 21:27:44,633 [P15412/D2/T141] INFO  umbraco.content - Saved Xml to file.
+ 2016-08-13 21:31:43,189 [P15412/D2/T342] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Ticket Global View' with Id '0' has been published.
+ 2016-08-13 21:31:47,326 [P15412/D2/T159] INFO  umbraco.content - Save Xml to file...
+ 2016-08-13 21:31:47,333 [P15412/D2/T327] INFO  umbraco.content - Saved Xml to file.
+ 2016-08-13 21:32:56,054 [P15412/D2/T296] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - Login attempt failed for username cliff from IP address ::1
+ 2016-08-13 21:32:56,093 [P15412/D2/T296] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Executing Umbraco RouteDefinition controller
+ 2016-08-13 21:32:56,109 [P15412/D2/T296] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Finished (took 15ms)
+ 2016-08-13 21:33:01,145 [P15412/D2/T343] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - Login attempt succeeded for username cliff from IP address ::1
+ 2016-08-13 21:33:01,278 [P15412/D2/T343] WARN  Umbraco.Core.Models.Member - Trying to access the 'PasswordQuestion' property on Umbraco.Core.Models.Member but the umbracoMemberPasswordRetrievalQuestion property does not exist on the member type so a default value is returned. Ensure that you have a property type with alias: umbracoMemberPasswordRetrievalQuestion configured on your member type in order to use the 'PasswordQuestion' property on the model correctly.
+ 2016-08-13 21:34:03,874 [P15412/D2/T341] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Test' with Id '0' has been published.
+ 2016-08-13 21:34:08,009 [P15412/D2/T343] INFO  umbraco.content - Save Xml to file...
+ 2016-08-13 21:34:08,015 [P15412/D2/T315] INFO  umbraco.content - Saved Xml to file.
+ 2016-08-13 21:34:15,901 [P15412/D2/T336] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Test' with Id '0' has been published.
+ 2016-08-13 21:34:20,032 [P15412/D2/T364] INFO  umbraco.content - Save Xml to file...
+ 2016-08-13 21:34:20,038 [P15412/D2/T315] INFO  umbraco.content - Saved Xml to file.
+ 2016-08-13 21:35:28,298 [P15412/D2/T320] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Test' with Id '1099' has been published.
+ 2016-08-13 21:35:32,429 [P15412/D2/T159] INFO  umbraco.content - Save Xml to file...
+ 2016-08-13 21:35:32,436 [P15412/D2/T315] INFO  umbraco.content - Saved Xml to file.
+ 2016-08-13 21:37:14,366 [P15412/D2/T281] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - Login attempt failed for username cliff from IP address ::1
+ 2016-08-13 21:37:14,406 [P15412/D2/T281] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Executing Umbraco RouteDefinition controller
+ 2016-08-13 21:37:14,421 [P15412/D2/T281] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Finished (took 14ms)
+ 2016-08-13 21:37:18,564 [P15412/D2/T316] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - Login attempt failed for username cliff from IP address ::1
+ 2016-08-13 21:37:18,602 [P15412/D2/T316] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Executing Umbraco RouteDefinition controller
+ 2016-08-13 21:37:18,617 [P15412/D2/T316] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Finished (took 14ms)
+ 2016-08-13 21:37:38,657 [P15412/D2/T316] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Ticket Global View' with Id '1098' has been unpublished.
+ 2016-08-13 21:37:42,712 [P15412/D2/T288] INFO  umbraco.content - Save Xml to file...
+ 2016-08-13 21:37:42,719 [P15412/D2/T317] INFO  umbraco.content - Saved Xml to file.
+ 2016-08-13 21:37:45,338 [P15412/D2/T332] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Test' with Id '1100' has been unpublished.
+ 2016-08-13 21:37:49,388 [P15412/D2/T341] INFO  umbraco.content - Save Xml to file...
+ 2016-08-13 21:37:49,394 [P15412/D2/T317] INFO  umbraco.content - Saved Xml to file.
+ 2016-08-13 21:37:56,559 [P15412/D2/T282] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Test' with Id '1099' has been unpublished.
+ 2016-08-13 21:38:00,607 [P15412/D2/T137] INFO  umbraco.content - Save Xml to file...
+ 2016-08-13 21:38:00,613 [P15412/D2/T298] INFO  umbraco.content - Saved Xml to file.
+ 2016-08-13 21:38:56,746 [P15412/D2/T341] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Ticket View' with Id '0' has been published.
+ 2016-08-13 21:39:00,874 [P15412/D2/T343] INFO  umbraco.content - Save Xml to file...
+ 2016-08-13 21:39:00,881 [P15412/D2/T162] INFO  umbraco.content - Saved Xml to file.
+ 2016-08-13 21:39:04,573 [P15412/D2/T300] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-08-13 21:39:05,871 [P15412/D2/T296] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-08-13 21:40:33,637 [P15412/D2/T364] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Ticket View' with Id '1101' has been published.
+ 2016-08-13 21:40:37,767 [P15412/D2/T159] INFO  umbraco.content - Save Xml to file...
+ 2016-08-13 21:40:37,773 [P15412/D2/T297] INFO  umbraco.content - Saved Xml to file.
+ 2016-08-13 21:43:32,466 [P15412/D2/T137] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.InvalidOperationException: The template with Id 1094 does not exist, the page cannot render
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.FindTemplate()
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.FindPublishedContentAndTemplate()
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.PrepareRequest()
+   at Umbraco.Web.UmbracoModule.ProcessRequest(HttpContextBase httpContext)
+   at Umbraco.Web.UmbracoModule.<Init>b__8(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2016-08-13 21:43:41,443 [P15412/D2/T341] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.InvalidOperationException: The template with Id 1094 does not exist, the page cannot render
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.FindTemplate()
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.FindPublishedContentAndTemplate()
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.PrepareRequest()
+   at Umbraco.Web.UmbracoModule.ProcessRequest(HttpContextBase httpContext)
+   at Umbraco.Web.UmbracoModule.<Init>b__8(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2016-08-13 21:45:28,838 [P15412/D2/T332] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.InvalidOperationException: The template with Id 1094 does not exist, the page cannot render
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.FindTemplate()
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.FindPublishedContentAndTemplate()
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.PrepareRequest()
+   at Umbraco.Web.UmbracoModule.ProcessRequest(HttpContextBase httpContext)
+   at Umbraco.Web.UmbracoModule.<Init>b__8(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2016-08-13 21:45:51,995 [P15412/D2/T316] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Ticket View' with Id '1101' has been unpublished.
+ 2016-08-13 21:45:56,050 [P15412/D2/T281] INFO  umbraco.content - Save Xml to file...
+ 2016-08-13 21:45:56,055 [P15412/D2/T161] INFO  umbraco.content - Saved Xml to file.
+ 2016-08-13 21:46:09,611 [P15412/D2/T159] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Ticketsystem' with Id '0' has been published.
+ 2016-08-13 21:46:13,732 [P15412/D2/T159] INFO  umbraco.content - Save Xml to file...
+ 2016-08-13 21:46:13,740 [P15412/D2/T328] INFO  umbraco.content - Saved Xml to file.
+ 2016-08-13 21:46:15,450 [P15412/D2/T341] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Ticketsystem' with Id '1104' has been published.
+ 2016-08-13 21:46:19,592 [P15412/D2/T281] INFO  umbraco.content - Save Xml to file...
+ 2016-08-13 21:46:19,599 [P15412/D2/T292] INFO  umbraco.content - Saved Xml to file.
+ 2016-08-13 21:48:21,550 [P15412/D2/T320] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - Login attempt failed for username cliff from IP address ::1
+ 2016-08-13 21:48:21,589 [P15412/D2/T320] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Executing Umbraco RouteDefinition controller
+ 2016-08-13 21:48:21,596 [P15412/D2/T320] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Finished (took 7ms)
+ 2016-08-13 21:48:25,295 [P15412/D2/T282] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - Login attempt failed for username cliff from IP address ::1
+ 2016-08-13 21:48:25,335 [P15412/D2/T282] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Executing Umbraco RouteDefinition controller
+ 2016-08-13 21:48:25,343 [P15412/D2/T282] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Finished (took 7ms)
+ 2016-08-13 21:48:31,688 [P15412/D2/T331] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - Login attempt failed for username cliff from IP address ::1, the user is now locked out, max invalid password attempts exceeded
+ 2016-08-13 21:48:31,729 [P15412/D2/T331] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Executing Umbraco RouteDefinition controller
+ 2016-08-13 21:48:31,738 [P15412/D2/T331] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Finished (took 8ms)
+ 2016-08-13 21:48:43,945 [P15412/D2/T331] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - Login attempt failed for username cliff from IP address ::1, the user is locked
+ 2016-08-13 21:48:43,945 [P15412/D2/T331] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Executing Umbraco RouteDefinition controller
+ 2016-08-13 21:48:43,954 [P15412/D2/T331] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Finished (took 8ms)
+ 2016-08-13 21:50:17,011 [P15412/D2/T282] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - Login attempt failed for username cliff from IP address ::1, the user is locked
+ 2016-08-13 21:50:17,011 [P15412/D2/T282] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Executing Umbraco RouteDefinition controller
+ 2016-08-13 21:50:17,019 [P15412/D2/T282] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Finished (took 8ms)
+ 2016-08-13 21:50:59,479 [P15412/D2/T342] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2016-08-13 21:50:59,493 [P15412/D2/T282] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2016-08-13 21:51:43,618 [P15412/D2/T331] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2016-08-13 21:51:43,628 [P15412/D2/T316] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2016-08-13 21:52:53,979 [P15412/D2/T281] WARN  Umbraco.Core.Models.Member - Trying to access the 'PasswordQuestion' property on Umbraco.Core.Models.Member but the umbracoMemberPasswordRetrievalQuestion property does not exist on the member type so a default value is returned. Ensure that you have a property type with alias: umbracoMemberPasswordRetrievalQuestion configured on your member type in order to use the 'PasswordQuestion' property on the model correctly.
+ 2016-08-13 21:53:15,738 [P15412/D2/T332] WARN  Umbraco.Core.Models.Member - An attempt was made to set a value on the property 'PasswordQuestion' on type Umbraco.Core.Models.Member but the property type umbracoMemberPasswordRetrievalQuestion does not exist on the member type, ensure that this property type exists so that setting this property works correctly.
+ 2016-08-13 21:53:15,738 [P15412/D2/T332] WARN  Umbraco.Core.Models.Member - An attempt was made to set a value on the property 'PasswordAnswer' on type Umbraco.Core.Models.Member but the property type umbracoMemberPasswordRetrievalAnswer does not exist on the member type, ensure that this property type exists so that setting this property works correctly.
+ 2016-08-13 21:53:15,778 [P15412/D2/T332] WARN  Umbraco.Core.Models.Member - Trying to access the 'PasswordQuestion' property on Umbraco.Core.Models.Member but the umbracoMemberPasswordRetrievalQuestion property does not exist on the member type so a default value is returned. Ensure that you have a property type with alias: umbracoMemberPasswordRetrievalQuestion configured on your member type in order to use the 'PasswordQuestion' property on the model correctly.
+ 2016-08-13 21:53:36,058 [P15412/D2/T364] WARN  Umbraco.Core.Models.Member - Trying to access the 'PasswordQuestion' property on Umbraco.Core.Models.Member but the umbracoMemberPasswordRetrievalQuestion property does not exist on the member type so a default value is returned. Ensure that you have a property type with alias: umbracoMemberPasswordRetrievalQuestion configured on your member type in order to use the 'PasswordQuestion' property on the model correctly.
+ 2016-08-13 21:53:36,229 [P15412/D2/T342] WARN  Umbraco.Core.Models.Member - Trying to access the 'PasswordQuestion' property on Umbraco.Core.Models.Member but the umbracoMemberPasswordRetrievalQuestion property does not exist on the member type so a default value is returned. Ensure that you have a property type with alias: umbracoMemberPasswordRetrievalQuestion configured on your member type in order to use the 'PasswordQuestion' property on the model correctly.
+ 2016-08-13 21:53:58,154 [P15412/D2/T342] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - Login attempt succeeded for username zeturas from IP address ::1
+ 2016-08-13 21:53:58,291 [P15412/D2/T342] WARN  Umbraco.Core.Models.Member - Trying to access the 'PasswordQuestion' property on Umbraco.Core.Models.Member but the umbracoMemberPasswordRetrievalQuestion property does not exist on the member type so a default value is returned. Ensure that you have a property type with alias: umbracoMemberPasswordRetrievalQuestion configured on your member type in order to use the 'PasswordQuestion' property on the model correctly.
+ 2016-08-13 21:56:20,339 [P15412/D2/T341] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Ticketsystem' with Id '1104' has been unpublished.
+ 2016-08-13 21:56:24,395 [P15412/D2/T288] INFO  umbraco.content - Save Xml to file...
+ 2016-08-13 21:56:24,437 [P15412/D2/T292] INFO  umbraco.content - Saved Xml to file.
+ 2016-08-13 21:56:34,370 [P15412/D2/T364] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Ticket System' with Id '1096' has been unpublished.
+ 2016-08-13 21:56:38,421 [P15412/D2/T282] INFO  umbraco.content - Save Xml to file...
+ 2016-08-13 21:56:38,465 [P15412/D2/T282] INFO  umbraco.content - Saved Xml to file.
+ 2016-08-13 22:06:02,851 [P15412/D2/T281] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2016-08-13 22:14:35,257 [P15412/D2/T336] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Login' with Id '0' has been published.
+ 2016-08-13 22:14:35,683 [P15412/D2/T320] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2016-08-13 22:14:35,683 [P15412/D2/T320] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2016-08-13 22:14:35,685 [P15412/D2/T343] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2016-08-13 22:14:35,685 [P15412/D2/T159] INFO  umbraco.content - Save Xml to file...
+ 2016-08-13 22:14:35,694 [P15412/D2/T292] INFO  umbraco.content - Saved Xml to file.
+ 2016-08-13 22:14:35,699 [P15412/D2/T320] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2016-08-13 22:14:35,699 [P15412/D2/T320] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2016-08-13 22:14:35,699 [P15412/D2/T320] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2016-08-13 22:14:35,699 [P15412/D2/T320] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2016-08-13 22:14:35,699 [P15412/D2/T320] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2016-08-13 22:14:35,699 [P15412/D2/T320] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2016-08-13 22:14:35,699 [P15412/D2/T288] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2016-08-13 22:14:35,699 [P15412/D2/T288] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2016-08-13 22:14:35,699 [P15412/D2/T137] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2016-08-13 22:14:35,699 [P15412/D2/T320] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2016-08-13 22:14:35,699 [P15412/D2/T320] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2016-08-13 22:14:35,699 [P15412/D2/T316] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2016-08-13 22:14:37,460 [P15412/D3/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.4.3 application starting on DESKTOP-FUK9L36
+ 2016-08-13 22:14:37,500 [P15412/D3/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-08-13 22:14:37,505 [P15412/D3/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 5ms)
+ 2016-08-13 22:14:37,583 [P15412/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-08-13 22:14:37,664 [P15412/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 81ms)
+ 2016-08-13 22:14:37,739 [P15412/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-08-13 22:14:37,740 [P15412/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+ 2016-08-13 22:14:37,740 [P15412/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-08-13 22:14:37,741 [P15412/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 0ms)
+ 2016-08-13 22:14:37,750 [P15412/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-08-13 22:14:37,750 [P15412/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 0ms)
+ 2016-08-13 22:14:37,751 [P15412/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2016-08-13 22:14:37,754 [P15412/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 3ms)
+ 2016-08-13 22:14:37,809 [P15412/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-08-13 22:14:37,809 [P15412/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 0ms)
+ 2016-08-13 22:14:37,810 [P15412/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-08-13 22:14:37,810 [P15412/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2016-08-13 22:14:38,454 [P15412/D3/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-08-13 22:14:38,631 [P15412/D3/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-08-13 22:14:38,763 [P15412/D3/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-08-13 22:14:38,822 [P15412/D3/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2016-08-13 22:14:38,891 [P15412/D3/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2016-08-13 22:14:38,955 [P15412/D3/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2016-08-13 22:14:38,963 [P15412/D3/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 1551ms)
+ 2016-08-13 22:14:40,503 [P15412/D3/T159] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:61142/umbraco (UmbracoModule request)
+ 2016-08-13 22:14:41,005 [P15412/D3/T159] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2016-08-13 22:14:41,006 [P15412/D3/T159] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 0ms)
+ 2016-08-13 22:14:41,522 [P15412/D3/T341] INFO  umbraco.content - Load Xml from file...
+ 2016-08-13 22:14:41,525 [P15412/D3/T341] ERROR umbraco.content - Failed to load Xml from file.
+System.Xml.XmlException: There is no Unicode byte order mark. Cannot switch to Unicode.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.ThrowWithoutLineInfo(String res)
+   at System.Xml.XmlTextReaderImpl.CheckEncoding(String newEncodingName)
+   at System.Xml.XmlTextReaderImpl.ParseXmlDeclaration(Boolean isTextDecl)
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(Stream inStream)
+   at umbraco.content.LoadXmlFromFile()
+ 2016-08-13 22:14:41,531 [P15412/D3/T341] INFO  umbraco.content - Loading content from database...
+ 2016-08-13 22:14:41,706 [P15412/D3/T341] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-08-13 22:14:41,707 [P15412/D3/T341] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 0ms)
+ 2016-08-13 22:14:42,889 [P15412/D3/T331] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2016-08-13 22:14:42,890 [P15412/D3/T331] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 0ms)
+ 2016-08-13 22:14:46,988 [P15412/D3/T314] INFO  umbraco.content - Save Xml to file...
+ 2016-08-13 22:14:46,995 [P15412/D3/T308] INFO  umbraco.content - Saved Xml to file.
+ 2016-08-13 22:14:47,820 [P15412/D3/T281] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-08-13 22:14:47,820 [P15412/D3/T281] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-08-13 22:14:47,822 [P15412/D3/T281] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-08-13 22:14:47,822 [P15412/D3/T281] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 0ms)
+ 2016-08-13 22:15:03,477 [P15412/D3/T331] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Ticketsystem' with Id '0' has been published.
+ 2016-08-13 22:15:05,731 [P15412/D2/T342] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: MaxRecompilationsReached
+
+_shutDownMessage=Recompilation limit of 15 reached
+HostingEnvironment initiated shutdown
+HostingEnvironment verursachte ein Herunterfahren
+
+_shutDownStack=   bei System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   bei System.Environment.get_StackTrace()
+   bei System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   bei System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   bei System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   bei System.Web.Compilation.DiskBuildResultCache.ShutdownCallBack(Object state)
+   bei System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   bei System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   bei System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   bei System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   bei System.Threading.ThreadPoolWorkQueue.Dispatch()
+   bei System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+ 2016-08-13 22:15:07,689 [P15412/D3/T308] INFO  umbraco.content - Save Xml to file...
+ 2016-08-13 22:15:07,770 [P15412/D3/T294] INFO  umbraco.content - Saved Xml to file.
+ 2016-08-13 22:15:40,725 [P15412/D3/T176] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-08-12 22:15:40
+ 2016-08-13 22:16:07,249 [P15412/D3/T6] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'View Tickets' with Id '0' has been published.
+ 2016-08-13 22:16:11,375 [P15412/D3/T288] INFO  umbraco.content - Save Xml to file...
+ 2016-08-13 22:16:11,376 [P15412/D3/T325] INFO  umbraco.content - Saved Xml to file.
+ 2016-08-13 22:16:30,011 [P15412/D3/T281] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Create Ticket' with Id '0' has been published.
+ 2016-08-13 22:16:34,161 [P15412/D3/T336] INFO  umbraco.content - Save Xml to file...
+ 2016-08-13 22:16:34,184 [P15412/D3/T306] INFO  umbraco.content - Saved Xml to file.
+ 2016-08-13 22:17:01,527 [P15412/D3/T282] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Editors.IEditorValidator
+ 2016-08-13 22:17:01,527 [P15412/D3/T282] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Editors.IEditorValidator, found 0 (took 0ms)
+ 2016-08-13 22:18:29,642 [P15412/D3/T296] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'View Tickets' with Id '1113' has been published.
+ 2016-08-13 22:18:33,817 [P15412/D3/T331] INFO  umbraco.content - Save Xml to file...
+ 2016-08-13 22:18:33,824 [P15412/D3/T307] INFO  umbraco.content - Saved Xml to file.
+ 2016-08-13 22:18:43,161 [P15412/D3/T300] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2016-08-13 22:18:43,162 [P15412/D3/T300] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 0ms)
+ 2016-08-13 22:19:11,868 [P15412/D3/T296] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Ticketsystem' with Id '1112' has been published.
+ 2016-08-13 22:19:15,988 [P15412/D3/T342] INFO  umbraco.content - Save Xml to file...
+ 2016-08-13 22:19:15,994 [P15412/D3/T301] INFO  umbraco.content - Saved Xml to file.
+ 2016-08-13 22:20:12,394 [P15412/D3/T137] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - Login attempt succeeded for username zeturas from IP address ::1
+ 2016-08-13 22:20:12,540 [P15412/D3/T137] WARN  Umbraco.Core.Models.Member - Trying to access the 'PasswordQuestion' property on Umbraco.Core.Models.Member but the umbracoMemberPasswordRetrievalQuestion property does not exist on the member type so a default value is returned. Ensure that you have a property type with alias: umbracoMemberPasswordRetrievalQuestion configured on your member type in order to use the 'PasswordQuestion' property on the model correctly.
+ 2016-08-13 22:20:42,953 [P15412/D3/T316] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - Login attempt succeeded for username zeturas from IP address ::1
+ 2016-08-13 22:20:43,090 [P15412/D3/T316] WARN  Umbraco.Core.Models.Member - Trying to access the 'PasswordQuestion' property on Umbraco.Core.Models.Member but the umbracoMemberPasswordRetrievalQuestion property does not exist on the member type so a default value is returned. Ensure that you have a property type with alias: umbracoMemberPasswordRetrievalQuestion configured on your member type in order to use the 'PasswordQuestion' property on the model correctly.
+ 2016-08-13 22:20:43,941 [P15412/D3/T341] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - Login attempt succeeded for username zeturas from IP address ::1
+ 2016-08-13 22:20:44,078 [P15412/D3/T341] WARN  Umbraco.Core.Models.Member - Trying to access the 'PasswordQuestion' property on Umbraco.Core.Models.Member but the umbracoMemberPasswordRetrievalQuestion property does not exist on the member type so a default value is returned. Ensure that you have a property type with alias: umbracoMemberPasswordRetrievalQuestion configured on your member type in order to use the 'PasswordQuestion' property on the model correctly.
+ 2016-08-13 22:20:44,766 [P15412/D3/T296] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - Login attempt succeeded for username zeturas from IP address ::1
+ 2016-08-13 22:20:44,906 [P15412/D3/T296] WARN  Umbraco.Core.Models.Member - Trying to access the 'PasswordQuestion' property on Umbraco.Core.Models.Member but the umbracoMemberPasswordRetrievalQuestion property does not exist on the member type so a default value is returned. Ensure that you have a property type with alias: umbracoMemberPasswordRetrievalQuestion configured on your member type in order to use the 'PasswordQuestion' property on the model correctly.
+ 2016-08-13 22:20:50,805 [P15412/D3/T281] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - Login attempt succeeded for username zeturas from IP address ::1
+ 2016-08-13 22:20:50,941 [P15412/D3/T281] WARN  Umbraco.Core.Models.Member - Trying to access the 'PasswordQuestion' property on Umbraco.Core.Models.Member but the umbracoMemberPasswordRetrievalQuestion property does not exist on the member type so a default value is returned. Ensure that you have a property type with alias: umbracoMemberPasswordRetrievalQuestion configured on your member type in order to use the 'PasswordQuestion' property on the model correctly.
+ 2016-08-13 22:23:40,908 [P15412/D3/T300] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Ticketsystem' with Id '1112' has been unpublished.
+ 2016-08-13 22:23:41,175 [P15412/D3/T300] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'View Tickets' with Id '1113' has been unpublished.
+ 2016-08-13 22:23:41,384 [P15412/D3/T300] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Create Ticket' with Id '1114' has been unpublished.
+ 2016-08-13 22:23:44,971 [P15412/D3/T336] INFO  umbraco.content - Save Xml to file...
+ 2016-08-13 22:23:44,991 [P15412/D3/T324] INFO  umbraco.content - Saved Xml to file.
+ 2016-08-13 22:24:03,584 [P15412/D3/T296] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Ticketsystem' with Id '0' has been published.
+ 2016-08-13 22:24:07,706 [P15412/D3/T6] INFO  umbraco.content - Save Xml to file...
+ 2016-08-13 22:24:07,789 [P15412/D3/T304] INFO  umbraco.content - Saved Xml to file.
+ 2016-08-13 22:24:19,599 [P15412/D3/T336] INFO  umbraco.content - Loading content from database...
+ 2016-08-13 22:24:23,702 [P15412/D3/T137] INFO  umbraco.content - Save Xml to file...
+ 2016-08-13 22:24:23,710 [P15412/D3/T301] INFO  umbraco.content - Saved Xml to file.
+ 2016-08-13 22:24:25,379 [P15412/D3/T316] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2016-08-13 22:25:11,930 [P15412/D3/T336] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'All Tickets' with Id '0' has been published.
+ 2016-08-13 22:25:16,095 [P15412/D3/T296] INFO  umbraco.content - Save Xml to file...
+ 2016-08-13 22:25:16,102 [P15412/D3/T301] INFO  umbraco.content - Saved Xml to file.
+ 2016-08-13 22:26:02,511 [P15412/D3/T288] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Create Ticket' with Id '0' has been published.
+ 2016-08-13 22:26:06,644 [P15412/D3/T159] INFO  umbraco.content - Save Xml to file...
+ 2016-08-13 22:26:06,649 [P15412/D3/T293] INFO  umbraco.content - Saved Xml to file.
+ 2016-08-13 22:26:42,056 [P15412/D3/T281] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Create Ticket' with Id '1117' has been published.
+ 2016-08-13 22:26:46,187 [P15412/D3/T308] INFO  umbraco.content - Save Xml to file...
+ 2016-08-13 22:26:46,197 [P15412/D3/T328] INFO  umbraco.content - Saved Xml to file.
+ 2016-08-13 22:28:57,177 [P15412/D3/T282] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Create Ticket' with Id '1117' has been unpublished.
+ 2016-08-13 22:29:01,220 [P15412/D3/T308] INFO  umbraco.content - Save Xml to file...
+ 2016-08-13 22:29:01,278 [P15412/D3/T26] INFO  umbraco.content - Saved Xml to file.
+ 2016-08-13 22:29:21,748 [P15412/D3/T281] INFO  umbraco.content - Loading content from database...
+ 2016-08-13 22:29:25,830 [P15412/D3/T137] INFO  umbraco.content - Save Xml to file...
+ 2016-08-13 22:29:25,838 [P15412/D3/T24] INFO  umbraco.content - Saved Xml to file.
+ 2016-08-13 22:30:59,306 [P15412/D3/T343] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2016-08-13 22:31:36,842 [P15412/D3/T159] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Create Ticket' with Id '0' has been published.
+ 2016-08-13 22:31:40,975 [P15412/D3/T341] INFO  umbraco.content - Save Xml to file...
+ 2016-08-13 22:31:40,982 [P15412/D3/T298] INFO  umbraco.content - Saved Xml to file.
+ 2016-08-13 22:32:33,221 [P15412/D3/T288] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'All Tickets' with Id '1116' has been published.
+ 2016-08-13 22:32:37,363 [P15412/D3/T320] INFO  umbraco.content - Save Xml to file...
+ 2016-08-13 22:32:37,368 [P15412/D3/T292] INFO  umbraco.content - Saved Xml to file.
+ 2016-08-13 22:32:54,164 [P15412/D3/T137] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'All Tickets' with Id '1116' has been unpublished.
+ 2016-08-13 22:32:58,217 [P15412/D3/T320] INFO  umbraco.content - Save Xml to file...
+ 2016-08-13 22:32:58,223 [P15412/D3/T294] INFO  umbraco.content - Saved Xml to file.
+ 2016-08-13 22:33:00,360 [P15412/D3/T320] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Create Ticket' with Id '1121' has been unpublished.
+ 2016-08-13 22:33:04,423 [P15412/D3/T159] INFO  umbraco.content - Save Xml to file...
+ 2016-08-13 22:33:04,428 [P15412/D3/T294] INFO  umbraco.content - Saved Xml to file.
+ 2016-08-13 22:33:41,495 [P15412/D3/T336] INFO  umbraco.content - Loading content from database...
+ 2016-08-13 22:33:45,612 [P15412/D3/T337] INFO  umbraco.content - Save Xml to file...
+ 2016-08-13 22:33:45,627 [P15412/D3/T337] INFO  umbraco.content - Saved Xml to file.
+ 2016-08-13 22:33:48,479 [P15412/D3/T308] INFO  umbraco.content - Loading content from database...
+ 2016-08-13 22:33:52,561 [P15412/D3/T27] INFO  umbraco.content - Save Xml to file...
+ 2016-08-13 22:33:52,568 [P15412/D3/T26] INFO  umbraco.content - Saved Xml to file.
+ 2016-08-13 22:37:49,836 [P15412/D3/T336] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2016-08-13 22:38:25,400 [P15412/D3/T6] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'All Tickets' with Id '0' has been published.
+ 2016-08-13 22:38:29,525 [P15412/D3/T336] INFO  umbraco.content - Save Xml to file...
+ 2016-08-13 22:38:29,533 [P15412/D3/T317] INFO  umbraco.content - Saved Xml to file.
+ 2016-08-13 22:38:41,006 [P15412/D3/T336] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Create Ticket' with Id '0' has been published.
+ 2016-08-13 22:38:45,191 [P15412/D3/T27] INFO  umbraco.content - Save Xml to file...
+ 2016-08-13 22:38:45,231 [P15412/D3/T324] INFO  umbraco.content - Saved Xml to file.
+ 2016-08-13 22:39:10,266 [P15412/D3/T288] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-08-13 22:39:10,266 [P15412/D3/T288] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-08-13 22:39:10,310 [P15412/D3/T281] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-08-13 22:39:10,311 [P15412/D3/T281] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 0ms)
+ 2016-08-13 22:42:20,997 [P15412/D3/T137] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt failed for username luxlink2@hotmail.com from IP address ::1
+ 2016-08-13 22:42:27,699 [P15412/D3/T337] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username luxlink2@hotmail.com from IP address ::1
+ 2016-08-13 22:42:27,699 [P15412/D3/T337] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: luxlink2@hotmail.com logged in from IP address ::1
+ 2016-08-13 22:42:58,166 [P15412/D3/T6] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'All Tickets' with Id '1128' has been unpublished.
+ 2016-08-13 22:42:58,648 [P15412/D3/T6] INFO  umbraco.content - Loading content from database...
+ 2016-08-13 22:43:02,718 [P15412/D3/T320] INFO  umbraco.content - Save Xml to file...
+ 2016-08-13 22:43:02,726 [P15412/D3/T306] INFO  umbraco.content - Saved Xml to file.
+ 2016-08-13 22:43:15,482 [P15412/D3/T281] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Create Ticket' with Id '1129' has been unpublished.
+ 2016-08-13 22:43:15,949 [P15412/D3/T281] INFO  umbraco.content - Loading content from database...
+ 2016-08-13 22:43:20,029 [P15412/D3/T331] INFO  umbraco.content - Save Xml to file...
+ 2016-08-13 22:43:20,037 [P15412/D3/T306] INFO  umbraco.content - Saved Xml to file.
+ 2016-08-13 22:45:18,244 [P15412/D3/T342] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2016-08-13 22:45:44,750 [P15412/D3/T137] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'All Tickets' with Id '0' has been published.
+ 2016-08-13 22:45:48,889 [P15412/D3/T137] INFO  umbraco.content - Save Xml to file...
+ 2016-08-13 22:45:48,895 [P15412/D3/T314] INFO  umbraco.content - Saved Xml to file.
+ 2016-08-13 22:45:57,991 [P15412/D3/T336] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Create Ticket' with Id '0' has been published.
+ 2016-08-13 22:46:02,134 [P15412/D3/T308] INFO  umbraco.content - Save Xml to file...
+ 2016-08-13 22:46:02,140 [P15412/D3/T314] INFO  umbraco.content - Saved Xml to file.
+ 2016-08-13 22:48:09,464 [P15412/D3/T336] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - Login attempt succeeded for username zeturas from IP address ::1
+ 2016-08-13 22:48:09,606 [P15412/D3/T336] WARN  Umbraco.Core.Models.Member - Trying to access the 'PasswordQuestion' property on Umbraco.Core.Models.Member but the umbracoMemberPasswordRetrievalQuestion property does not exist on the member type so a default value is returned. Ensure that you have a property type with alias: umbracoMemberPasswordRetrievalQuestion configured on your member type in order to use the 'PasswordQuestion' property on the model correctly.
+ 2016-08-13 22:48:23,677 [P15412/D3/T24] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - Login attempt succeeded for username zeturas from IP address ::1
+ 2016-08-13 22:48:23,833 [P15412/D3/T24] WARN  Umbraco.Core.Models.Member - Trying to access the 'PasswordQuestion' property on Umbraco.Core.Models.Member but the umbracoMemberPasswordRetrievalQuestion property does not exist on the member type so a default value is returned. Ensure that you have a property type with alias: umbracoMemberPasswordRetrievalQuestion configured on your member type in order to use the 'PasswordQuestion' property on the model correctly.
+ 2016-08-13 22:48:46,035 [P15412/D3/T282] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - Login attempt failed for username cliff from IP address ::1, the user is locked
+ 2016-08-13 22:48:46,038 [P15412/D3/T282] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Executing Umbraco RouteDefinition controller
+ 2016-08-13 22:48:46,055 [P15412/D3/T282] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Finished (took 17ms)
+ 2016-08-13 22:48:53,401 [P15412/D3/T137] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - Login attempt failed for username cliff from IP address ::1, the user is locked
+ 2016-08-13 22:48:53,401 [P15412/D3/T137] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Executing Umbraco RouteDefinition controller
+ 2016-08-13 22:48:53,411 [P15412/D3/T137] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Finished (took 9ms)
+ 2016-08-13 22:49:23,439 [P15412/D3/T282] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - Login attempt succeeded for username zeturas from IP address ::1
+ 2016-08-13 22:49:23,586 [P15412/D3/T282] WARN  Umbraco.Core.Models.Member - Trying to access the 'PasswordQuestion' property on Umbraco.Core.Models.Member but the umbracoMemberPasswordRetrievalQuestion property does not exist on the member type so a default value is returned. Ensure that you have a property type with alias: umbracoMemberPasswordRetrievalQuestion configured on your member type in order to use the 'PasswordQuestion' property on the model correctly.
