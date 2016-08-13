@@ -40,6 +40,8 @@ namespace Umbraco.Core.TheTicketSystem.Objects
             {
                 DatabaseContext.Database.Insert(ticketText);
             }
+            ticketText = this.GetByTicketId(ticketText.fiTicket).Last<TicketText>();
+
             return ticketText;
         }
 

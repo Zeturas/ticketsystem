@@ -15,6 +15,20 @@ namespace Umbraco.Core.TheTicketSystem
         {
             var db = applicationContext.DatabaseContext.Database;
 
+            // Create Status table if not exists
+            if (!db.TableExist("Status"))
+            {
+                db.CreateTable<Status>(false);
+                Status newStatus = new Status("New");
+                Status ipStatus = new Status("In progress");
+                Status closedStatus = new Status("Closed");
+
+                StatusApiController sc = new StatusApiController();
+                sc.PostSave(newStatus);
+                sc.PostSave(ipStatus);
+                sc.PostSave(closedStatus);
+            }
+
             // Create client table if not exists
             if (!db.TableExist("Client"))
             {

@@ -14,7 +14,9 @@ namespace Umbraco.Core.TheTicketSystem.Objects
     [PrimaryKey("Id", autoIncrement = true)]
     public class Ticket
     {
-        public Ticket() { }
+        public Ticket() {
+            this.fiStatus = 1; // 1 = new 
+        }
 
         [PrimaryKeyColumn(AutoIncrement = true)]
         public int Id { get; set; }
@@ -24,5 +26,8 @@ namespace Umbraco.Core.TheTicketSystem.Objects
 
         [ForeignKey(typeof(Client))]
         public int fiClient { get; set; }
+
+        [ForeignKey(typeof(Status))]
+        public int fiStatus { get; set; }
     }
 }
